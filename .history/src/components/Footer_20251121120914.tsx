@@ -24,7 +24,7 @@ const Footer = () => {
               <a href="#" className="bg-secondary hover:bg-primary/20 p-2 rounded-full transition-colors">
                 <Youtube className="h-5 w-5" />
               </a>
-              <a href="https://www.tiktok.com/@kaybee.official" className="bg-secondary hover:bg-primary/20 p-2 rounded-full transition-colors">
+              <a href="#" className="bg-secondary hover:bg-primary/20 p-2 rounded-full transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
             </div>

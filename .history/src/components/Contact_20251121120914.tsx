@@ -166,8 +166,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Call Us</h3>
-                  <p className="text-muted-foreground">+220 3138228</p>
-                  <p className="text-sm text-muted-foreground/70 mt-1">Mon-Fri: 9AM - 6PM GMT</p>
+                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-sm text-muted-foreground/70 mt-1">Mon-Fri: 9AM - 6PM EST</p>
                 </div>
               </div>
             </div>
@@ -179,15 +179,15 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Visit Our Studio</h3>
-                  <p className="text-muted-foreground">kanifing Layout Block G</p>
-                  <p className="text-muted-foreground">Banjul, The Gambia</p>
+                  <p className="text-muted-foreground">123 Cinema Avenue</p>
+                  <p className="text-muted-foreground">Los Angeles, CA 90028</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-muted/30 p-6 rounded-lg border border-primary/20">
               <p className="text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">Booking Notice:</span> We recommend reaching out at least 1-2 weeks in advance for weddings and major events to ensure availability.
+                <span className="font-semibold text-foreground">Booking Notice:</span> We recommend reaching out at least 3-6 months in advance for weddings and major events to ensure availability.
               </p>
             </div>
           </div>

@@ -4,67 +4,42 @@ import { Check } from "lucide-react";
 const Packages = () => {
   const packages = [
     {
-      name: "Essential",
-      price: "$1,499",
-      description: "Perfect for intimate events and smaller productions",
+      name: "Basic",
+      price: "D4,500",
+      description: "Perfect for shorter events and intimate celebrations",
       features: [
-        "Up to 4 hours of coverage",
-        "Single videographer",
-        "2-3 minute highlight reel",
-        "Basic color grading",
-        "Digital delivery in 4K",
-        "Background music",
+        "Duration: 4 hours",
+        "Video length: ≤ 1 minute",
+        "Extension: D1,200/hour",
+        "Delivery: 5 days after shoot",
+        "Transportation paid separately (varies by location)",
       ],
       popular: false,
     },
     {
-      name: "Premium",
-      price: "$2,999",
-      description: "Our most popular package for weddings and corporate events",
+      name: "Standard",
+      price: "D6,500",
+      description: "Most popular for weddings and bridal showers",
       features: [
-        "Up to 8 hours of coverage",
-        "Two videographers",
-        "5-7 minute cinematic film",
-        "Advanced color grading",
-        "Drone footage included",
-        "Custom soundtrack",
-        "Same-day teaser edit",
-        "Online gallery",
+        "Duration: 6 hours",
+        "Video length: ≤ 2 minutes",
+        "Extension: D1,200/hour",
+        "Delivery: 7 days after shoot",
+        "Transportation paid separately (varies by location)",
       ],
       popular: true,
     },
     {
-      name: "Luxury",
-      price: "$5,499",
-      description: "Premium coverage for milestone celebrations",
+      name: "Premium",
+      price: "D10,000",
+      description: "Extended coverage for full-day events and seminars",
       features: [
-        "Full day coverage (12+ hours)",
-        "Three videographers",
-        "10-15 minute cinematic film",
-        "Professional color grading",
-        "Drone + gimbal footage",
-        "Custom score composition",
-        "Documentary-style raw footage",
-        "4K master files",
-        "Exclusive online gallery",
-      ],
-      popular: false,
-    },
-    {
-      name: "Ultimate",
-      price: "Custom",
-      description: "Bespoke production for commercials and brand content",
-      features: [
-        "Unlimited coverage time",
-        "Full production crew",
-        "Multiple deliverables",
-        "Cinema-grade equipment",
-        "Full creative direction",
-        "Script development",
-        "Professional actors/talent",
-        "Multi-location shoots",
-        "Priority scheduling",
-        "Dedicated project manager",
+        "Duration: 10 hours",
+        "Video length: ≤ 2 minutes",
+        "Extension: D1,000/hour",
+        "Delivery: 10 days after shoot",
+        "Additional videos available (depends on content)",
+        "Transportation paid separately (varies by location)",
       ],
       popular: false,
     },
@@ -80,14 +55,14 @@ const Packages = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-up">
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-            Investment Packages
+            Event Highlight Shoots
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Choose the perfect package for your project. All packages include professional editing and digital delivery.
+            Capture memorable moments for weddings, bridal showers, seminars, and more. All packages include professional editing and digital delivery.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {packages.map((pkg, index) => (
             <div
               key={index}

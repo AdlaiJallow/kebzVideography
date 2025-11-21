@@ -25,7 +25,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center animate-fade-up">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold mb-6 text-gradient-gold">
-          KAYBEE
+          Cinematic Visions
         </h1>
         <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-4 font-light">
           Capturing Your Story in Motion
